@@ -1,7 +1,7 @@
 # Личный проект «Кексобукинг»
 
 * Студент: [Михаил Муньягисеньи](https://up.htmlacademy.ru/javascript/22/user/1339081).
-* Наставник: [ДинаАбрамова](https://htmlacademy.ru/profile/id1483099).
+* Наставник: [Дина Абрамова](https://htmlacademy.ru/profile/id1483099).
 
 ---
 
