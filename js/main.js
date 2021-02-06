@@ -33,7 +33,7 @@ function getRandomCoordinate(min, max, num) {
 }
 
 alert(
-  'Случайное число: ' + getRandomNumber(0, 5) + '\n' +
+  'Случайное положительное число: ' + getRandomNumber(0, 5) + '\n' +
   'Случайное положительное число, где max <= min: ' + getRandomNumber(10, 3) + '\n' +
   'Случайная положительная десятичная дробь:' + getRandomCoordinate(0,3.1, 4) + '\n' +
   'Случайная положительная десятичная дробь, где max <= min: ' + getRandomCoordinate(2.7,2.4, 1) + '\n' +
