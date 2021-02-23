@@ -87,6 +87,27 @@ const getRandomArrayElement = (elements) => {
   return elements[getRandomNumber(0, elements.length)];
 };
 
+const getRandomArray = (array) => {
+
+  let resultArray = [];
+  let tempElement = null;
+  let checkUniqueElement = true;
+
+  while (checkUniqueElement) {
+
+    tempElement = getRandomArrayElement(array);
+
+    if(!resultArray.includes(tempElement)) {
+      resultArray.push(tempElement);
+    }
+    else {
+      checkUniqueElement = false;
+    }
+  }
+  return resultArray;
+
+}
+
 const sellersList = () => {
   return {
     author: {
@@ -104,7 +125,7 @@ const sellersList = () => {
       guests: getRandomNumber(0, 5),
       checkin: getRandomArrayElement(CHECKIN),
       checkout: getRandomArrayElement(CHECKOUT),
-      features: getRandomArrayElement(FEATURES),
+      features: getRandomArray(FEATURES),
       description: getRandomArrayElement(TITLES),
       photos: PATHS_PHOTO_HOTEL,
     },
